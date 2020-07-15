@@ -1,0 +1,35 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://scenes/UI.tscn" type="PackedScene" id=1]
+
+[node name="camera" type="Camera2D"]
+current = true
+zoom = Vector2( 2, 2 )
+smoothing_enabled = true
+smoothing_speed = 20.0
+
+[node name="Control" parent="." instance=ExtResource( 1 )]
+margin_left = -822.715
+margin_top = 215.198
+margin_right = -822.715
+margin_bottom = 215.198
+
+[node name="fight" parent="Control" index="1"]
+margin_left = -214.082
+margin_top = 282.796
+margin_right = -11.0818
+margin_bottom = 389.796
+
+[node name="travel" parent="Control" index="2"]
+margin_left = -76.1514
+margin_top = 156.733
+margin_right = 54.8486
+margin_bottom = 285.733
+
+[node name="redirect" parent="Control" index="3"]
+margin_left = -191.603
+margin_top = 163.621
+margin_right = -58.6027
+margin_bottom = 292.621
+
+[editable path="Control"]

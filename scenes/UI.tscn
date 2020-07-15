@@ -1,0 +1,57 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://assets/images/UI/fight_buttom.png" type="Texture" id=1]
+[ext_resource path="res://assets/images/UI/travel_buttom.png" type="Texture" id=2]
+[ext_resource path="res://assets/images/UI/redirect_buttom.png" type="Texture" id=3]
+[ext_resource path="res://scenes/UI.gd" type="Script" id=4]
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="timer" type="Label" parent="."]
+margin_left = -2.15262
+margin_top = 0.293964
+margin_right = 37.8474
+margin_bottom = 14.294
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="fight" type="TextureRect" parent="."]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = 349.602
+margin_top = 185.281
+margin_right = 552.602
+margin_bottom = 292.281
+texture = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="travel" type="TextureRect" parent="."]
+margin_left = 868.079
+margin_top = 354.142
+margin_right = 999.079
+margin_bottom = 483.142
+texture = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="redirect" type="TextureRect" parent="."]
+margin_left = 681.275
+margin_top = 351.516
+margin_right = 814.275
+margin_bottom = 480.516
+texture = ExtResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
